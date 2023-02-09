@@ -34,9 +34,17 @@
         padding-bottom: 188px;
 
         background-image: var(--bg-gradient),
-        url(../images/optim-img/hero-desk-1x.jpeg)
+        url(../images/optim-img/hero-desk-1x.jpg)
+    }
+    @media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+    .first-section{
+        background-image: var(--bg-gradient),
+        url(../images/optim-img/hero-desc-2x.jpeg)
 
     }
+}
     .section-third{
         display: block;
         padding-bottom: 120px;
@@ -130,12 +138,4 @@
     }
     
 }
-@media (min-device-pixel-ratio: 2),
-  (min-resolution: 192dpi),
-  (min-resolution: 2dppx) {
-    .first-section{
-        background-image: var(--bg-gradient),
-        url(../images/optim-img/hero-desk-2x.jpeg)
 
-    }
-}

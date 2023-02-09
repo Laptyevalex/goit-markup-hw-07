@@ -215,9 +215,6 @@ textarea{
 {
 color: var(--iris);
 }
-
-
-
 .first-section{
     margin-left: auto;
     margin-right: auto;
@@ -237,11 +234,10 @@ color: var(--iris);
     text-align: center ;
     display: block;
 }
-
 @media (min-device-pixel-ratio: 2),
   (min-resolution: 192dpi),
   (min-resolution: 2dppx) {
-  .box {
+  .first-section {
     background-image: var(--bg-gradient),
     url(../images/optim-img/hero-mob-2x.jpeg);;
   }

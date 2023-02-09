@@ -151,15 +151,15 @@
         background-image: var(--bg-gradient),
         url(../images/optim-img/hero-tablet-1x.jpeg);
     }
-    .footer-input{
-        width: 264px;
-    }
-}
-@media (min-device-pixel-ratio: 2),
+    @media (min-device-pixel-ratio: 2),
   (min-resolution: 192dpi),
   (min-resolution: 2dppx) {
-  .box {
+  .first-section {
     background-image: var(--bg-gradient),
     url(../images/optim-img/hero-tablet-2x.jpeg);;
   }
+}
+    .footer-input{
+        width: 264px;
+    }
 }
