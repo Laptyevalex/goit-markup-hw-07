@@ -1,0 +1,41 @@
+@media screen and (min-width:480px) {
+    .conteiner{
+        width: 426px;
+        padding: 0px 15px;
+    }
+
+    .footer-item-input{
+        width: 396px;
+    }
+    .icon-item{
+        display:none;
+    }
+    .feature-text {
+        width: 100%;
+    }
+    .team-cards{
+        row-gap: 64px;
+        column-gap: 24px;
+    }  
+    .team-card{
+        width: 264px;
+    }
+    .section-fifth>
+    .conteiner{
+        width: 396px;
+        padding: 0;
+    }
+    .costumers-list-item{
+        width: 190px;
+    }
+    .modal{
+        width: 408px;
+    }
+    .input-wrap{
+        width: 360px;
+    }
+    .form-textarea{
+        width: 360px;
+    }
+    
+}

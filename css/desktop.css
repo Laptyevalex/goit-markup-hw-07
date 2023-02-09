@@ -1,0 +1,141 @@
+@media screen and (min-width:1200px) {
+    .head-section{
+        padding: 0;
+    }
+    .conteiner{
+        width: 1128px;
+        padding: 0px;
+    }
+    .menu-open{
+        display: none;
+    }
+    .menu-nav,
+    .adress-menu{
+        display: block;
+    }
+    .menu-nav {
+        display: flex;
+        margin-left: 77px;
+        padding-left: 0px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        font-weight: 700;
+        color:var(--navy-blue);   
+    }
+    .nav-item{
+        height: 76px;
+        padding-bottom: 22px;
+    }
+    .adress-menu{
+        margin-left: 290px;
+    }
+    .first-section{
+        padding-top: 188px;
+        padding-bottom: 188px;
+
+        background-image: var(--bg-gradient),
+        url(../images/optim-img/hero-desk-1x.jpeg)
+
+    }
+    .section-third{
+        display: block;
+        padding-bottom: 120px;
+    }
+    .icon-item{
+        height: 112px;
+        background-color: var(--cloud);
+
+        margin-bottom: 8px;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        fill: var(--navy-blue);
+    }
+    .feature-title{
+        font-weight: 700;
+        font-size: 20px;
+    }
+    .feature-text {
+        width: 100%;
+        font-weight: 400;
+    }
+    .team-cards{
+        width: auto;
+        gap: 24px;
+        flex-wrap: nowrap;
+        flex-direction: row;
+    }
+    .team-card{
+        width: auto;
+    }
+    .list{
+        width: 100%;
+        flex-wrap: nowrap;
+        flex-direction: row;
+        justify-content: center;
+        gap: 24px;
+    }
+    .feature-title{
+        text-align: start;
+    }
+    .section-fourth{
+        padding-top: 120px;
+        padding-bottom: 120px;
+    }
+    .costumers-list{
+        gap: 24px;
+    }
+    .footer-form-head{
+        text-align: left;
+    }
+    .footer-form{
+
+        flex-wrap: nowrap;
+
+    }
+    .footer-list-icon{
+        justify-content: flex-start;
+    }
+    .footer-list{
+        flex-direction: row ;
+        align-items: baseline;
+        gap: 0px;
+    }
+    .link-footer{
+        text-align: left;
+    }
+    .footer-item-social{
+        margin-left: 120px;
+        margin-right: 80px;
+    }
+    .section-fifth>
+    .conteiner{
+        width: 1128px;
+        padding: 0px;
+    }
+    .section-fifth{
+        padding-top: 120px;
+        padding-bottom: 120px;
+    }
+    .costumers-list{
+        flex-wrap: nowrap;
+    }
+    .footer-input{
+        width: 264px;
+    }
+    .footer-item-input{
+        width: 453px;
+    }
+    
+}
+@media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+    .first-section{
+        background-image: var(--bg-gradient),
+        url(../images/optim-img/hero-desk-2x.jpeg)
+
+    }
+}
